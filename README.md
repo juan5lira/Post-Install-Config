@@ -35,6 +35,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 </p>
 <p>
 Username and passwords
+  
   <img width="607" height="721" alt="image" src="https://github.com/user-attachments/assets/85bcd60d-5f8f-4ba9-a390-673e1fd50417" />
   <img width="576" height="797" alt="image" src="https://github.com/user-attachments/assets/59ff5f5f-1d99-4498-99da-64d837022645" />
 
@@ -48,7 +49,9 @@ Username and passwords
 <img width="622" height="838" alt="image" src="https://github.com/user-attachments/assets/453aa5d3-e1b7-475d-877e-1a51e23e244e" />
 <img width="720" height="471" alt="image" src="https://github.com/user-attachments/assets/7f77d026-92f0-45d6-8301-27464bda57b5" />
 <img width="830" height="327" alt="image" src="https://github.com/user-attachments/assets/bbecc035-e14d-4f92-bc9d-4eb4279d67ca" />
+  
   tickets
+  
 <img width="873" height="566" alt="image" src="https://github.com/user-attachments/assets/0a181c40-aeab-4618-9445-7e3443d3359a" />
 <img width="688" height="525" alt="image" src="https://github.com/user-attachments/assets/73ad57c4-82cf-48ea-9df7-c5560dde7e5b" />
 <img width="902" height="476" alt="image" src="https://github.com/user-attachments/assets/83b1bbd6-aefb-45bc-a324-b37a5d0caaa1" />
