@@ -34,6 +34,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 </p>
 <p>
+  
 Username and passwords
   
   <img width="607" height="721" alt="image" src="https://github.com/user-attachments/assets/85bcd60d-5f8f-4ba9-a390-673e1fd50417" />
