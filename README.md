@@ -59,6 +59,133 @@ Username and passwords
 
 </p>
 <p>
-Name
+Admin/Analyst Login Page:
+http://localhost/osTicket/scp/login.php 
+
+End Users osTicket URL:
+http://localhost/osTicket 
+
+Acknowledge Agent Panel vs Admin Panel
+
+Configure Roles (for grouping permissions)
+Admin Panel -> Agents -> Roles
+Supreme Admin
+
+Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
+Admin Panel -> Agents -> Departments
+SysAdmins
+
+Configure Teams
+Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
+Online Banking
+
+Allow anyone to create tickets
+Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
+Registration Required: Require registration and login to create tickets 
+
+Configure Agents (workers)
+Admin Panel -> Agents -> Add New
+Jane (Dept: SysAdmins)
+John (Dept: Support)
+
+Configure Users (customers)
+Agent Panel -> Users -> Add New
+Karen
+Ken
+
+Configure SLA
+Admin Panel -> Manage -> SLA
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+Sev-C (Grace Period: 8 hours, Business Hours)
+
+Configure Help Topics (For when users create a ticket)
+Admin Panel -> Manage -> Help Topics
+Business Critical Outage
+Personal Computer Issues
+Equipment Request
+Password Reset
+Other
+
+-- Next
+
+Admin/Analyst Login Page:
+http://localhost/osTicket/scp/login.php 
+
+End Users osTicket URL:
+http://localhost/osTicket 
+
+In this lab, we will be creating tickets as end users
+Observing all the ticket properties and responding to them as help desk professionals
+
+Change the SysAdmins Department to a Top Level Department
+DELETE the Maintenance Department (not archive)
+
+
+As an end-user, create the following ticket
+entire mobile/online banking system is down
+
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+
+Set Properties to the ticket
+Sev-A (1 hour, 24/7)
+Online Banking Department
+
+Attempt to observe the ticket again as “john”. Can you view or change?
+
+Work the ticket to completion as jane
+
+
+
+As an end-user, create the following ticket
+accounting department needs adobe upgrade, broken
+
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+
+Set Properties to the ticket
+Sev-B (4 hours, 24/7)
+Support
+
+Work the ticket to completion as john
+
+
+
+As an end-user, create the following ticket
+CFO’s laptop will no longer turn on
+
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+
+Set Properties to the ticket
+Sev-B (4 hours, 24/7)
+Support
+
+Work the ticket to completion as john
+
+
+Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
+Switch to admin panel and assign yourself View-access to Sys Admins
+Switch to agent panel and observe the escalated ticket
+Observe that you can no longer make changes to it
+
+Solve all of the tickets
+Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond
+
+Explain ticket intake IRL:
+Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.
+A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)
+
+
 </p>
 <br />
