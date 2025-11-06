@@ -59,6 +59,8 @@ Username and passwords
 
 </p>
 <p>
+
+	
 Admin/Analyst Login Page:
 http://localhost/osTicket/scp/login.php 
 
