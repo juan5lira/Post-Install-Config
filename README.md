@@ -60,12 +60,16 @@ Username and passwords
 </p>
 <p>
 
+	STEP 1 
+	LOG IN
 	
 Admin/Analyst Login Page:
 http://localhost/osTicket/scp/login.php 
 
 End Users osTicket URL:
 http://localhost/osTicket 
+
+STEP 2
 
 Acknowledge Agent Panel vs Admin Panel
 
@@ -85,21 +89,29 @@ Allow anyone to create tickets
 Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
 Registration Required: Require registration and login to create tickets 
 
+STEP 3
+
 Configure Agents (workers)
 Admin Panel -> Agents -> Add New
 Jane (Dept: SysAdmins)
 John (Dept: Support)
 
+ STEP 4
+ 
 Configure Users (customers)
 Agent Panel -> Users -> Add New
 Karen
 Ken
+
+STEP 5
 
 Configure SLA
 Admin Panel -> Manage -> SLA
 Sev-A (Grace Period: 1 hour, Schedule: 24/7)
 Sev-B (Grace Period: 4 hours, Schedule: 24/7)
 Sev-C (Grace Period: 8 hours, Business Hours)
+
+STEP 6
 
 Configure Help Topics (For when users create a ticket)
 Admin Panel -> Manage -> Help Topics
@@ -117,21 +129,29 @@ http://localhost/osTicket/scp/login.php
 End Users osTicket URL:
 http://localhost/osTicket 
 
+STEP 7
+
 In this lab, we will be creating tickets as end users
 Observing all the ticket properties and responding to them as help desk professionals
+
+STEP 8
 
 Change the SysAdmins Department to a Top Level Department
 DELETE the Maintenance Department (not archive)
 
+STEP 9
 
 As an end-user, create the following ticket
 entire mobile/online banking system is down
+
+STEP 10
 
 As a Help Desk Agent (john), observe the ticket’s properties
 	Priority
 	Department
 	SLA
 	Assigned To
+STEP 11
 
 Set Properties to the ticket
 Sev-A (1 hour, 24/7)
@@ -139,18 +159,24 @@ Online Banking Department
 
 Attempt to observe the ticket again as “john”. Can you view or change?
 
+STEP 12
+
 Work the ticket to completion as jane
 
 
+STEP 13
 
 As an end-user, create the following ticket
 accounting department needs adobe upgrade, broken
 
+STEP 14
+
 As a Help Desk Agent (john), observe the ticket’s properties
 	Priority
 	Department
 	SLA
 	Assigned To
+STEP 15
 
 Set Properties to the ticket
 Sev-B (4 hours, 24/7)
@@ -159,15 +185,19 @@ Support
 Work the ticket to completion as john
 
 
+STEP 16
 
 As an end-user, create the following ticket
 CFO’s laptop will no longer turn on
 
+STEP 17
+
 As a Help Desk Agent (john), observe the ticket’s properties
 	Priority
 	Department
 	SLA
 	Assigned To
+STEP 18
 
 Set Properties to the ticket
 Sev-B (4 hours, 24/7)
@@ -175,19 +205,22 @@ Support
 
 Work the ticket to completion as john
 
+STEP 19
 
 Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
 Switch to admin panel and assign yourself View-access to Sys Admins
 Switch to agent panel and observe the escalated ticket
 Observe that you can no longer make changes to it
 
+ STEP 20
+ 
 Solve all of the tickets
-Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond
+Explain.
+in most ticketing systems there is an email capability, so every time you update the ticket, the user gets a copy and they can respond
 
 Explain ticket intake IRL:
 Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.
-A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)
-
+A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. 
 
 </p>
 <br />
