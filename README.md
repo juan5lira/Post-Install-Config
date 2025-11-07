@@ -28,37 +28,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 <img width="837" height="555" alt="image" src="https://github.com/user-attachments/assets/521fdd85-8c8c-4095-b763-bafb4d3e72e4" />
-<img width="872" height="847" alt="image" src="https://github.com/user-attachments/assets/ab4a2cc2-4ecd-4705-8f83-11667974ecca" />
-
-</p>
-<p>
-  
-Username and passwords
-  
-  <img width="607" height="721" alt="image" src="https://github.com/user-attachments/assets/85bcd60d-5f8f-4ba9-a390-673e1fd50417" />
-  <img width="576" height="797" alt="image" src="https://github.com/user-attachments/assets/59ff5f5f-1d99-4498-99da-64d837022645" />
-
-
-</p>
-<br />
-
-<p>
-<img width="622" height="637" alt="image" src="https://github.com/user-attachments/assets/9e1a29bf-9fc0-40db-9341-39eeef092864" />
-<img width="618" height="518" alt="image" src="https://github.com/user-attachments/assets/d20a2b74-26c8-4d2e-abad-4445eec743c3" />
-<img width="622" height="838" alt="image" src="https://github.com/user-attachments/assets/453aa5d3-e1b7-475d-877e-1a51e23e244e" />
-<img width="720" height="471" alt="image" src="https://github.com/user-attachments/assets/7f77d026-92f0-45d6-8301-27464bda57b5" />
-<img width="830" height="327" alt="image" src="https://github.com/user-attachments/assets/bbecc035-e14d-4f92-bc9d-4eb4279d67ca" />
-  
-  tickets
-  
-<img width="873" height="566" alt="image" src="https://github.com/user-attachments/assets/0a181c40-aeab-4618-9445-7e3443d3359a" />
-<img width="688" height="525" alt="image" src="https://github.com/user-attachments/assets/73ad57c4-82cf-48ea-9df7-c5560dde7e5b" />
-<img width="902" height="476" alt="image" src="https://github.com/user-attachments/assets/83b1bbd6-aefb-45bc-a324-b37a5d0caaa1" />
 
 
 
-</p>
-<p>
 
 	STEP 1 
 	LOG IN
@@ -96,6 +68,12 @@ Admin Panel -> Agents -> Add New
 Jane (Dept: SysAdmins)
 John (Dept: Support)
 
+
+
+<img width="872" height="847" alt="image" src="https://github.com/user-attachments/assets/ab4a2cc2-4ecd-4705-8f83-11667974ecca" />
+
+
+
  STEP 4
  
 Configure Users (customers)
@@ -121,6 +99,26 @@ Equipment Request
 Password Reset
 Other
 
+
+
+
+</p>
+<p>
+  
+Username and passwords
+  
+  <img width="607" height="721" alt="image" src="https://github.com/user-attachments/assets/85bcd60d-5f8f-4ba9-a390-673e1fd50417" />
+  <img width="576" height="797" alt="image" src="https://github.com/user-attachments/assets/59ff5f5f-1d99-4498-99da-64d837022645" />
+
+
+</p>
+<br />
+
+
+
+
+
+
 -- Next
 
 Admin/Analyst Login Page:
@@ -144,13 +142,24 @@ STEP 9
 As an end-user, create the following ticket
 entire mobile/online banking system is down
 
-STEP 10
+
+
+
+<p>
+<img width="622" height="637" alt="image" src="https://github.com/user-attachments/assets/9e1a29bf-9fc0-40db-9341-39eeef092864" />
+<img width="618" height="518" alt="image" src="https://github.com/user-attachments/assets/d20a2b74-26c8-4d2e-abad-4445eec743c3" />
+
+
+
+	STEP 10
 
 As a Help Desk Agent (john), observe the ticket’s properties
 	Priority
 	Department
 	SLA
 	Assigned To
+
+	
 STEP 11
 
 Set Properties to the ticket
@@ -169,6 +178,15 @@ STEP 13
 As an end-user, create the following ticket
 accounting department needs adobe upgrade, broken
 
+
+
+
+
+<img width="622" height="838" alt="image" src="https://github.com/user-attachments/assets/453aa5d3-e1b7-475d-877e-1a51e23e244e" />
+<img width="720" height="471" alt="image" src="https://github.com/user-attachments/assets/7f77d026-92f0-45d6-8301-27464bda57b5" />
+
+
+
 STEP 14
 
 As a Help Desk Agent (john), observe the ticket’s properties
@@ -176,6 +194,8 @@ As a Help Desk Agent (john), observe the ticket’s properties
 	Department
 	SLA
 	Assigned To
+
+	
 STEP 15
 
 Set Properties to the ticket
@@ -190,6 +210,18 @@ STEP 16
 As an end-user, create the following ticket
 CFO’s laptop will no longer turn on
 
+
+
+
+
+<img width="830" height="327" alt="image" src="https://github.com/user-attachments/assets/bbecc035-e14d-4f92-bc9d-4eb4279d67ca" />
+  
+  tickets
+  
+<img width="873" height="566" alt="image" src="https://github.com/user-attachments/assets/0a181c40-aeab-4618-9445-7e3443d3359a" />
+<img width="688" height="525" alt="image" src="https://github.com/user-attachments/assets/73ad57c4-82cf-48ea-9df7-c5560dde7e5b" />
+
+
 STEP 17
 
 As a Help Desk Agent (john), observe the ticket’s properties
@@ -197,6 +229,8 @@ As a Help Desk Agent (john), observe the ticket’s properties
 	Department
 	SLA
 	Assigned To
+
+	
 STEP 18
 
 Set Properties to the ticket
@@ -211,6 +245,14 @@ Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket bec
 Switch to admin panel and assign yourself View-access to Sys Admins
 Switch to agent panel and observe the escalated ticket
 Observe that you can no longer make changes to it
+
+<img width="902" height="476" alt="image" src="https://github.com/user-attachments/assets/83b1bbd6-aefb-45bc-a324-b37a5d0caaa1" />
+
+
+
+</p>
+<p>
+
 
  STEP 20
  
